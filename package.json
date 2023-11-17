@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@astrajs/rest": "^0.3.4",
+    "appwrite": "^12.0.0",
+    "firebase": "^10.3.1"
+  }
+}
