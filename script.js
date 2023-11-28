@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   input.addEventListener('input', () => {
     const searchTerm = input.value.toLowerCase();
-    games.forEach(game => {
+    games.forEach(game => { // this line was written by gobilong
       const gameAlt = game.alt.toLowerCase();
       if (gameAlt.includes(searchTerm)) {
         game.style.display = 'block';
